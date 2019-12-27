@@ -1,10 +1,7 @@
 
 //Creado por :  kristopher Gonzalez
-
-
 //create function 
-function validador (){
-
+function validador ()
     //accediendo a campos de texto correo y passw de html. y guardando en variables
   let correo =  window.document.querySelector('#correo_id');
   let clave = window.document.querySelector('#passwd_id');
@@ -25,16 +22,13 @@ function validador (){
 
    //validando datos 
 
-   if (usuario != 'ejemplo@gmail.com' && pass != '123456') {
+   if (usuario != 'ejemplo@gmail.com' || pass != '123456') {
     console.log('Email y/o contraseña son incorrectos')
      }
      else{
         console.log('Iniciando Sesión...')
     }
-
-
 }
-
 //accediendo a campo boton del html y se deja en variable boton1
 let boton1 = window.document.querySelector('#Boton');
 //funcion se ejecuta cuando se dispara el evento al hacer click sobre el boton
