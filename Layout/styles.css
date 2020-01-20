@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+
+  /*border: 5px solid red;*/
+
+}
+
+.main {
+  display: block;
+}
+
+
+.cabecera-principal header {
+
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+
+.seccion-principal {
+
+  /*border: 3px solid cyan;*/
+  display: grid;
+  grid-template-columns: 20% 80%;
+
+
+}
+
+.seccion-principal aside {
+
+
+  background-color: #c3f1ff;
+  ;
+  /*border: 3px solid lime;
+  height: 400px; 
+  */
+  padding-top: -100px;
+
+
+}
+
+
+
+
+
+
+/*
+.main {
+
+    border: 3px solid blue
+  
+  } */
+
+
+
+#Contenido-dinamico {
+
+  width: 70vw;
+  height: 80vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+#contenido-dinamico-menu {
+
+  width: 70vw;
+  height: 80vh;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+
+.lista {
+
+  /* border: 3px solid black;*/
+
+  height: 50px;
+  border-bottom: 1px solid blueviolet;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding-left: 15px;
+
+}
+
+.lista:hover {
+
+
+  color: blueviolet
+}
+
+.lista {
+  cursor: pointer;
+}
+
+
+
+
+#texto-dinamico {
+  text-align: center;
+  color: gray;
+
+
+}
+
+
+p {
+  list-style: none;
+}
+
+img {
+  width: 26px;
+  height: 26px;
+}
+
+
+
+
+.contenido-secundario {
+
+  padding: 0px;
+
+
+
+}

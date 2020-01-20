@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: block;
+}
+
+.main {
+
+  margin: auto;
+  /*centra el main*/
+  width: 605px;
+  /* le da el ancho*/
+  height: 1000px;
+  /* le da el ancho*/
+  /*left: 425px;
+  top: 83px;
+  padding-bottom: 19px;
+  padding-left: 28px;
+  padding-right: 20px;*/
+
+  background: #F2FCFF;
+  /* le da el color de fondo*/
+  border: 3px solid #C3F1FF;
+  /* le da el color de borde*/
+  box-sizing: border-box;
+  border-radius: 50px;
+  /* redondea los bordes*/
+}
+
+
+
+.imagen {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+
+.caja-principal {
+
+
+
+  display: grid;
+  /*despliega en foma de grilla*/
+  grid-template-columns: 33% 33% 33%;
+
+  margin: 30px 30px 30px 60px;
+  /*margin-top: 30px;
+  margin-left: 30PX;
+  justify-content: space-around; /*justifica contenido entre las cajas*/
+  /*display: flex;
+  margin-top: 30px;*/
+
+
+
+
+}
+
+
+.caja-artista {
+
+
+  text-align: center;
+  /* centra el esto y la imagen*/
+  width: 135px;
+  /*ancho de la caja*/
+  height: 135px;
+  /*largo de la caja*/
+  background: #5AD2AE;
+  border: 1px solid #29CEFF;
+  /*color y tamaño  del borde*/
+  /*box-sizing: border-box;*/
+  border-radius: 20px;
+  /* redondea bordes */
+  padding-top: 10px;
+  /* separacion entre el contenido y el borde interno*/
+}
+
+
+.caja-artista p {
+  color: #FFFFFF;
+  margin: 8px;
+}
+
+footer {
+  width: auto;
+  padding-left: 30px;
+}

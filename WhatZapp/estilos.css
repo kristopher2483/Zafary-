@@ -1,0 +1,189 @@
+/*Creadoor : Kristopher Gonzalez*/
+.body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.main {
+    /* border: 3px ; border-style: solid ; border-color: red;  */
+    margin-left: auto;
+    /*Margen izquierdo automatico*/
+    margin-right: auto;
+    /*Margen derecho automatico*/
+    margin-top: 20px;
+    /*Margen superior 20px*/
+    width: 888px;
+    /*ancho del main*/
+    height: 406px;
+    /*largo del main*/
+
+}
+
+
+.seccion1-principal {
+
+    /* border: 3px;border-style: solid;border-color: greenyellow; grosor del borde, estado solido y color */
+    */ display: inline-block;
+    /*se despleja en forma horizontal respetando el largo y ancho*/
+    width: 290px;
+    /*ancho de la caja1 principal*/
+    height: 415px;
+    /*largo de la caja1 principal*/
+    float: left;
+    /* para alinear un elemento a la izquierda, haciendo que el texto de alrededor 
+                   del mismo se agrupe entorno a dicho elemento , hay que definir un ancho y largo*/
+
+
+}
+
+.encabezado-seccion1 {
+    /*borde : color , borde solido , grosor del borde  */
+
+    /* border-color:  blue ; */
+    text-align: center;
+    width: 295px;
+    height: 70px;
+    background-color: gainsboro;
+
+}
+
+.encabezado-seccion1 h1 {
+    position: relative;
+    top: 15px;
+}
+
+.encabezado-seccion2 h1 {
+    position: relative;
+    top: 15px;
+}
+
+
+
+.seccion1 {
+
+    /*borde : color , borde solido , grosor del borde  */
+
+
+    text-align: justify;
+    width: 293px;
+    /*ancho de la caja  seccion1*/
+    height: 64px;
+    /*largo de la caja  seccion1*/
+    display: inline-block;
+    /*se despleja en forma horizontal respetando el largo y ancho*/
+    position: relative;
+    left: 00px;
+
+    cursor: pointer;
+
+
+
+}
+
+.seccion1 {
+
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: aliceblue;
+
+
+}
+
+.seccion2-principal {
+
+    display: inline-block;
+    /* border: 3px; border-style: solid ; border-color: fuchsia;  */
+    width: 592px;
+    height: 400px;
+    float: right;
+    /* para alinear un elemento a la derecha, haciendo que el texto de alrededor 
+    del mismo se agrupe entorno a dicho elemento , hay que definir un ancho y largo*/
+
+
+}
+
+.encabezado-seccion2 {
+
+
+    /* border-color:  blue ; */
+    text-align: center;
+    width: 583px;
+    height: 70px;
+    background-color: gainsboro;
+
+
+
+
+}
+
+.seccion2 {
+
+    /* border: 1px; border-style: solid; border-color: gray; */
+    text-align: center;
+    width: 580px;
+    height: 260px;
+    color: gray;
+}
+
+
+
+
+.Seccion-texto {
+
+
+    font-size: large;
+    border: 0px;
+    border-style: solid;
+    border-color: gray;
+    text-align: justify;
+    width: 530px;
+    /*Ancho */
+    height: 50px;
+    /*Largo*/
+    color: black;
+    font-style: italic;
+    /*tipo de letra*/
+    font-size: 1em;
+    /*Tamaño de letra*/
+    background-color: gainsboro;
+
+    border-radius: 30px;
+
+    position: relative;
+    left: 40px;
+
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    right: -5px;
+}
+
+
+img {
+    cursor: pointer;
+}
+
+.seccion1:hover {
+    color: blue;
+}
+
+
+
+#contenido-dinamico-menu {
+    position: relative;
+    top: 80px;
+
+}
+
+
+#texto-dinamico {
+    position: relative;
+    top: 15px;
+}
